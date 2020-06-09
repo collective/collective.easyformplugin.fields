@@ -3,7 +3,7 @@
    This text does not appear on pypi or github. It is a comment.
 
 ================================
-collective.easyformplugin.simple
+collective.easyformplugin.fields
 ================================
 
 Tell me what your product does
@@ -38,14 +38,14 @@ This product has been translated into
 Installation
 ------------
 
-Install collective.easyformplugin.simple by adding it to your buildout::
+Install collective.easyformplugin.fields by adding it to your buildout::
 
     [buildout]
 
     ...
 
     eggs =
-        collective.easyformplugin.simple
+        collective.easyformplugin.fields
 
 
 and then running ``bin/buildout``
@@ -54,8 +54,8 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/collective.easyformplugin.simple/issues
-- Source Code: https://github.com/collective/collective.easyformplugin.simple
+- Issue Tracker: https://github.com/collective/collective.easyformplugin.fields/issues
+- Source Code: https://github.com/collective/collective.easyformplugin.fields
 - Documentation: https://docs.plone.org/foo/bar
 
 

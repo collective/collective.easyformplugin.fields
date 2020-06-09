@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Installer for the collective.easyformplugin.simple package."""
+"""Installer for the collective.easyformplugin.fields package."""
 
 from setuptools import find_packages
 from setuptools import setup
@@ -7,13 +7,12 @@ from setuptools import setup
 
 long_description = '\n\n'.join([
     open('README.rst').read(),
-    open('CONTRIBUTORS.rst').read(),
     open('CHANGES.rst').read(),
 ])
 
 
 setup(
-    name='collective.easyformplugin.simple',
+    name='collective.easyformplugin.fields',
     version='1.0a1',
     description="Simple form creation",
     long_description=long_description,
@@ -33,12 +32,12 @@ setup(
     keywords='Python Plone',
     author='Johannes Raggam',
     author_email='thetetet@gmail.com',
-    url='https://github.com/collective/collective.easyformplugin.simple',
+    url='https://github.com/collective/collective.easyformplugin.fields',
     project_urls={
-        'PyPI': 'https://pypi.python.org/pypi/collective.easyformplugin.simple',
-        'Source': 'https://github.com/collective/collective.easyformplugin.simple',
-        'Tracker': 'https://github.com/collective/collective.easyformplugin.simple/issues',
-        # 'Documentation': 'https://collective.easyformplugin.simple.readthedocs.io/en/latest/',
+        'PyPI': 'https://pypi.python.org/pypi/collective.easyformplugin.fields',
+        'Source': 'https://github.com/collective/collective.easyformplugin.fields',
+        'Tracker': 'https://github.com/collective/collective.easyformplugin.fields/issues',
+        # 'Documentation': 'https://collective.easyformplugin.fields.readthedocs.io/en/latest/',
     },
     license='GPL version 2',
     packages=find_packages('src', exclude=['ez_setup']),
@@ -70,6 +69,6 @@ setup(
     [z3c.autoinclude.plugin]
     target = plone
     [console_scripts]
-    update_locale = collective.easyformplugin.simple.locales.update:update_locale
+    update_locale = collective.easyformplugin.fields.locales.update:update_locale
     """,
 )
