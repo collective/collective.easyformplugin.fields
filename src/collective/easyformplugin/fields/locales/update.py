@@ -5,10 +5,10 @@ import pkg_resources
 import subprocess
 
 
-domain = 'collective.easyformplugin.simple'
+domain = 'collective.easyformplugin.fields'
 os.chdir(pkg_resources.resource_filename(domain, ''))
 os.chdir('../../../')
-target_path = 'src/collective/simple/'
+target_path = 'src/collective/fields/'
 locale_path = target_path + 'locales/'
 i18ndude = './bin/i18ndude'
 

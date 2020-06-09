@@ -1,5 +1,5 @@
-from collective.easyformplugin.simple.interfaces import IConsentWidget
-from collective.easyformplugin.simple.interfaces import IDividerWidget
+from collective.easyformplugin.fields.interfaces import IConsentWidget
+from collective.easyformplugin.fields.interfaces import IDividerWidget
 from plone.app.z3cform.widget import SingleCheckBoxBoolWidget
 from Products.Five.browser import BrowserView
 from Products.Five.browser.metaconfigure import ViewMixinForTemplates

@@ -3,4 +3,4 @@
 from zope.i18nmessageid import MessageFactory
 
 
-_ = MessageFactory('collective.easyformplugin.simple')
+_ = MessageFactory('collective.easyformplugin.fields')
