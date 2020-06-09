@@ -7,7 +7,7 @@
        fieldname_class string:kssattr-fieldname-${widget/name};
      "
      tal:attributes="
-       class string:field z3cformInlineValidation ${fieldname_class}${error_class};
+       class string:easyformplugin-fields--divider field z3cformInlineValidation ${fieldname_class}${error_class};
        data-fieldname widget/name;
        id string:formfield-${widget/id};
      "
