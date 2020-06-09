@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<registry>
+  <record field="allowedFields"
+          interface="collective.easyform.browser.controlpanel.IEasyFormControlPanel"
+          name="easyform.allowedFields"
+  >
+    <value purge="False">
+      <element>collective.easyformplugin.fields.fields.Consent</element>
+      <element>collective.easyformplugin.fields.fields.Divider</element>
+    </value>
+  </record>
+</registry>
