@@ -15,10 +15,16 @@ class IBrowserLayer(IEasyFormLayer):
 
 class IConsent(zope.schema.interfaces.IBool):
     rich_label = RichText(
-        title=_(u"Rich Label"), default=u"", required=False, missing_value=u""
+        title=_("consent_rich_label__label", default=u"Rich Label"),
+        default=u"",
+        required=False,
+        missing_value=u"",
     )
     checkbox_label = zope.schema.TextLine(
-        title=_(u"Checkbox Label"), default=u"", required=False, missing_value=u""
+        title=_("consent_checkbox_label__label", default=u"Checkbox Label"),
+        default=u"",
+        required=False,
+        missing_value=u"",
     )
 
 

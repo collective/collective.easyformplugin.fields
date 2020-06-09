@@ -1,6 +1,3 @@
-# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -15,15 +12,15 @@ msgstr ""
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: collective.easyformplugin.fields\n"
+"Domain: DOMAIN\n"
 
 #: ../configure.zcml:57
 msgid "Installs the collective.easyformplugin.fields add-on."
-msgstr ""
+msgstr "Installiert das Plugin collective.easyformplugin.fields"
 
 #: ../configure.zcml:65
 msgid "Uninstalls the collective.easyformplugin.fields add-on."
-msgstr ""
+msgstr "Deinstalliert das Plugin collective.easyformplugin.fields"
 
 #: ../configure.zcml:57
 msgid "collective.easyformplugin.fields"
@@ -36,19 +33,21 @@ msgstr ""
 #. Default: "Checkbox Label"
 #: ../interfaces.py:24
 msgid "consent_checkbox_label__label"
-msgstr ""
+msgstr "Titel für Auswahlfeld"
 
 #. Default: "Rich Label"
 #: ../interfaces.py:18
 msgid "consent_rich_label__label"
-msgstr ""
+msgstr "Formatierbare Beschriftung"
 
 #. Default: "Consent"
 #: ../fields.py:36
+#, fuzzy
 msgid "label_consent_field"
-msgstr ""
+msgstr "Einwilligung"
 
 #. Default: "Divider"
 #: ../fields.py:46
+#, fuzzy
 msgid "label_divider_field"
-msgstr ""
+msgstr "Trenner"

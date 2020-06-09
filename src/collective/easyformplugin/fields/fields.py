@@ -33,9 +33,7 @@ class Consent(Bool):
         super(Consent, self).validate(value)
 
 
-ConsentFactory = FieldFactory(
-    Consent, _(u"label_consent_field", default=u"Einwilligung")
-)
+ConsentFactory = FieldFactory(Consent, _(u"label_consent_field", default=u"Consent"))
 ConsentHandler = BaseHandler(Consent)
 
 
@@ -45,5 +43,5 @@ class Divider(Label):
     alternative to the use of fieldsets."""
 
 
-DividerFactory = FieldFactory(Divider, _(u"label_divider_field", default=u"Trenner"))
+DividerFactory = FieldFactory(Divider, _(u"label_divider_field", default=u"Divider"))
 DividerHandler = BaseHandler(Divider)
