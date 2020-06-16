@@ -22,7 +22,7 @@ class IConsent(zope.schema.interfaces.IBool):
     )
     checkbox_label = zope.schema.TextLine(
         title=_("consent_checkbox_label__label", default=u"Checkbox Label"),
-        default=u"",
+        default=_(u"Yes, I agree"),
         required=False,
         missing_value=u"",
     )
