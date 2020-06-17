@@ -28,12 +28,20 @@ class IBrowserLayer(IEasyFormLayer):
 class IConsent(zope.schema.interfaces.IBool):
     rich_label = RichText(
         title=_("consent_rich_label__label", default=u"Rich Label"),
+        description=_(
+            "consent_rich_label__help",
+            default=u"A text that will appear above the checkbox to explain the nature of the consent.",
+        ),
         default=u"",
         required=False,
         missing_value=u"",
     )
     checkbox_label = zope.schema.TextLine(
         title=_("consent_checkbox_label__label", default=u"Checkbox Label"),
+        description=_(
+            "consent_checkbox_label__help",
+            default=u"A text that will be displayed next to the checkbox, e.g. 'Yes, I agree'.",
+        ),
         # defaultFactory=default_checkbox_label,  # the default's value is apparently not stored. TODO: revisit lated.
         default=u"",
         required=False,
