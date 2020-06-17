@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-06-16 14:27+0000\n"
+"POT-Creation-Date: 2020-06-17 08:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,10 +25,6 @@ msgstr ""
 msgid "Uninstalls the collective.easyformplugin.fields add-on."
 msgstr ""
 
-#: ../interfaces.py:25
-msgid "Yes, I agree"
-msgstr ""
-
 #: ../configure.zcml:57
 msgid "collective.easyformplugin.fields"
 msgstr ""
@@ -37,13 +33,18 @@ msgstr ""
 msgid "collective.easyformplugin.fields (uninstall)"
 msgstr ""
 
+#. Default: "Yes, I agree"
+#: ../interfaces.py:17
+msgid "consent_checkbox_label__default"
+msgstr ""
+
 #. Default: "Checkbox Label"
-#: ../interfaces.py:24
+#: ../interfaces.py:32
 msgid "consent_checkbox_label__label"
 msgstr ""
 
 #. Default: "Rich Label"
-#: ../interfaces.py:18
+#: ../interfaces.py:26
 msgid "consent_rich_label__label"
 msgstr ""
 
