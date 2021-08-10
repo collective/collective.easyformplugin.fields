@@ -10,7 +10,7 @@ long_description = "\n\n".join([open("README.rst").read(), open("CHANGES.rst").r
 
 setup(
     name="collective.easyformplugin.fields",
-    version="1.0.dev0",
+    version="1.0",
     description="Extra fields for easyform",
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/
