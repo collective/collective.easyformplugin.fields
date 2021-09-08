@@ -21,10 +21,6 @@ class SimpleFormForm(EasyFormForm):
                 field.widgetFactory["input"] = ParameterizedWidget(ConsentFieldWidget)
             elif isinstance(field.field, Divider):
                 field.widgetFactory["input"] = ParameterizedWidget(DividerFieldWidget)
-            elif isinstance(field.field, Choice):
-                field.widgetFactory["input"] = ParameterizedWidget(RadioFieldWidget)
-            elif isinstance(field.field, Set):
-                field.widgetFactory["input"] = ParameterizedWidget(CheckBoxWidget)
         super(SimpleFormForm, self).updateWidgets()
 
 
