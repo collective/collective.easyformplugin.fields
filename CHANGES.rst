@@ -5,7 +5,7 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Don't reassign the widgets on Choice and Set fields in IEasyFormForm's in view.py. [fredvd]
 
 
 1.0 (2021-08-10)
